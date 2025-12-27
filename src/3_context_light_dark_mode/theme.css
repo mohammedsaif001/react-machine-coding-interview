@@ -1,0 +1,14 @@
+[data-theme="light"] {
+  --bg-color: #ece8e8;
+  --text-color: #383838;
+}
+
+[data-theme="dark"] {
+  --bg-color: #383838;
+  --text-color: #ece8e8;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

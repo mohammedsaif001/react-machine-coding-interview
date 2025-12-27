@@ -1,3 +1,4 @@
+import "./theme.css";
 import { useContext } from "react";
 import ThemeProvider, { ThemeContext } from "./context/theme";
 
