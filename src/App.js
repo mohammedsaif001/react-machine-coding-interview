@@ -1,3 +1,4 @@
+import UseFetchComponent from "./10_use_fetch/use-fetch-comp.jsx";
 import ClassBasedComp from "./1_class_based_comp/class-based-comp";
 import LifeCycleClassComp from "./1_class_based_comp/life-cycle-class-comp.jsx";
 import UseEffectPolyfillComponent from "./2_use_effect_polyfill/use-effect-polyfill.jsx";
@@ -20,7 +21,8 @@ export default function App() {
       {/* <UseMemoCallbackComp /> */}
       {/* <UseImperativeHandleComponent /> */}
       {/* <UseWindowSize /> */}
-      <UseDebounceHook />
+      {/* <UseDebounceHook /> */}
+      <UseFetchComponent />
     </div>
   );
 }
