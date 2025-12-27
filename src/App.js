@@ -4,6 +4,7 @@ import UseEffectPolyfillComponent from "./2_use_effect_polyfill/use-effect-polyf
 import LightDarkMode from "./3_context_light_dark_mode/light-dark-mode.js";
 import UseReducerComponent from "./4_use_reducer/use-reducer-comp.jsx";
 import UseMemoCallbackComp from "./5_use_memo_callback/use-memo-callback-comp.jsx";
+import UseImperativeHandleComponent from "./6_use_imperative_handle/use-imperative-handle-comp.jsx";
 import "./styles.css";
 
 export default function App() {
@@ -14,7 +15,8 @@ export default function App() {
       {/* <UseEffectPolyfillComponent /> */}
       {/* <LightDarkMode /> */}
       {/* <UseReducerComponent /> */}
-      <UseMemoCallbackComp />
+      {/* <UseMemoCallbackComp /> */}
+      <UseImperativeHandleComponent />
     </div>
   );
 }
