@@ -6,6 +6,7 @@ import UseReducerComponent from "./4_use_reducer/use-reducer-comp.jsx";
 import UseMemoCallbackComp from "./5_use_memo_callback/use-memo-callback-comp.jsx";
 import UseImperativeHandleComponent from "./6_use_imperative_handle/use-imperative-handle-comp.jsx";
 import UseWindowSize from "./7_use_window/use-window-size.jsx";
+import UseDebounceHook from "./8_use_debounce/use-debounce-comp.jsx";
 import "./styles.css";
 
 export default function App() {
@@ -18,7 +19,8 @@ export default function App() {
       {/* <UseReducerComponent /> */}
       {/* <UseMemoCallbackComp /> */}
       {/* <UseImperativeHandleComponent /> */}
-      <UseWindowSize />
+      {/* <UseWindowSize /> */}
+      <UseDebounceHook />
     </div>
   );
 }
