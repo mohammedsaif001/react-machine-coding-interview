@@ -1,6 +1,7 @@
 import UseFetchComponent from "./10_use_fetch/use-fetch-comp.jsx";
 import UseIntersectionObserverComponent from "./11_use_intersection_observer/use-inersection-observer.jsx";
 import ProgressBarView from "./12_progress_bar/progress-bar-view.jsx";
+import PaginationBackendView from "./13_pagination/pagination-backend-view.jsx";
 import PaginationView from "./13_pagination/pagination-view.jsx";
 import ClassBasedComp from "./1_class_based_comp/class-based-comp";
 import LifeCycleClassComp from "./1_class_based_comp/life-cycle-class-comp.jsx";
@@ -28,7 +29,8 @@ export default function App() {
       {/* <UseFetchComponent /> */}
       {/* <UseIntersectionObserverComponent /> */}
       {/* <ProgressBarView /> */}
-      <PaginationView />
+      {/* <PaginationView /> */}
+      <PaginationBackendView />
     </div>
   );
 }
