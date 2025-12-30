@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+.progressbar {
+  border: 1px solid black;
+  border-radius: 20px;
+  position: relative;
+  background-color: #d4d3d3;
+  overflow: hidden;
+}
+
+.progressbar > span {
+  position: relative;
+  z-index: 3;
+}
+
+.progressbar__fill {
+  position: absolute;
+  background-color: aquamarine;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
