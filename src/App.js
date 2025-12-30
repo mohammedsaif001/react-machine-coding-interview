@@ -3,6 +3,7 @@ import UseIntersectionObserverComponent from "./11_use_intersection_observer/use
 import ProgressBarView from "./12_progress_bar/progress-bar-view.jsx";
 import PaginationBackendView from "./13_pagination/pagination-backend-view.jsx";
 import PaginationView from "./13_pagination/pagination-view.jsx";
+import InfiniteScrollView from "./14_infinite_scroll/infinite-scroll-view.jsx";
 import ClassBasedComp from "./1_class_based_comp/class-based-comp";
 import LifeCycleClassComp from "./1_class_based_comp/life-cycle-class-comp.jsx";
 import UseEffectPolyfillComponent from "./2_use_effect_polyfill/use-effect-polyfill.jsx";
@@ -30,7 +31,8 @@ export default function App() {
       {/* <UseIntersectionObserverComponent /> */}
       {/* <ProgressBarView /> */}
       {/* <PaginationView /> */}
-      <PaginationBackendView />
+      {/* <PaginationBackendView /> */}
+      <InfiniteScrollView />
     </div>
   );
 }
